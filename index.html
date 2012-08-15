@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Vrbas Construction - Island County Finish Carpentry, Carpentry, or Contract work" />
+		<meta name="keywords" content="Island County, Whidbey, Carpentry, Finish Carpentry, Cabinetry"/>
+		
+		<title>Vrbas Construction</title>
+		
+		<!-- Styles -->
+		<link href="http://s3.amazonaws.com/bootstrap.assets/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="http://s3.amazonaws.com/bootstrap.assets/assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<style type="text/css">
+      		body {
+	       		padding-top: 60px;
+	        	padding-bottom: 40px;
+	      	}
+	    </style>
+		
+		<!-- Touch Screen Icons -->
+		<link rel="shortcut icon" href="http://s3.amazonaws.com/bootstrap.assets/assets/ico/favicon.ico">
+    	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://s3.amazonaws.com/bootstrap.assets/assets/ico/apple-touch-icon-114-precomposed.png">
+    	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://s3.amazonaws.com/bootstrap.assets/assets/ico/apple-touch-icon-72-precomposed.png">
+    	<link rel="apple-touch-icon-precomposed" href="http://s3.amazonaws.com/bootstrap.assets/assets/ico/apple-touch-icon-57-precomposed.png">
+    	
+    	<!-- Google Analytics Configuration -->
+    	<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-31108123-1']);
+		  _gaq.push(['_setDomainName', 'simplervsearch.com']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
+      		<div class="navbar-inner">
+        		<div class="container">
+          			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+          			</a>
+          			<a class="brand" href="#">Vrbas Construction</a>
+          			<div class="nav-collapse">
+            			<ul class="nav" data-bind="foreach: availableSections">
+            				<li data-bind="css: { 'active': $parent.selectedSection() === $data }"><a href="#$data" data-bind="text: $data, click: $parent.selectSection"></a></li>
+            			</ul>
+          			</div>
+        		</div>
+      		</div>
+    	</div>
+		<div class="container">
+			<div id="homeContent" class="hero-unit" style="display:none" data-bind="visible: selectedSection() ==='Home'">
+        		<h2>Vrbas Construction, a small construction firm serving Island and Skagit counties</h2>
+        		<p>Vrbas Construction offers a wide variety of services.  Since we have been in business for over 25 years, chances are we’ve done it.</p>
+				<p>
+					<ul>
+						<li>Deck building</li>
+						<li>Trim / Crown Moulding Installation</li>
+						<li>Door Installation</li>
+						<li>Window Installation / Modification</li>
+						<li>Cabinet Installation / Modification</li>
+						<li>Custom Woodworking</li>
+						<li>Finish Carepentry</li>
+						<li>Job Site Management</li>
+						<li>Siding (Install new, patch existing, remove and reinstall)</li>
+						<li>Project design and permitting</li>
+						<li>Much, much more</li>
+					</ul>
+				</p>
+      		</div>
+      		<div id="aboutContent" class="hero-unit" style="display:none" data-bind="visible: selectedSection() ==='About'">
+        		<h2>Why Vrbas Construction?</h2>
+        		<p>Vrbas Construction is a local construction company that is owned and operated by Thomas Vrbas for over 25 years.  
+				Tom has spent more than 30 years in the residential construction industry with a focus on homes on or near Whidbey Island.  
+				Carpentry began at a young age where he was taught the trade by his father where he helped build many houses and farm buildings in southwestern Nebraska.</p>
+				<p>In the years since then, Tom has worked on a wide array of projects ranging from window installation to performing all the fine finish carpentry work in multi-million dollar 
+				homes.  The entire time Tom has built his reputation as being one of the best of what he does and ensuring that the homeowner gets the best possible results for their money.</p>
+      		</div>
+      		<div id="contactContent" class="hero-unit" style="display:none" data-bind="visible: selectedSection() ==='Contact'">
+        		<h2>Who do I talk to?</h2>
+				<p style="float:left">
+					Vrbas Construction<br/>
+					PO Box 1291<br/>
+					Oak Harbor, WA 98277
+				</p>
+				<p style="float:right;">
+					Phone / Fax: 360-675-9274<br/>
+					Cell: 360-929-1292<br/>
+					Email: <a href="mailto:info@vrbasconstruction.com">info@vrbasconstruction.com</a>
+				</p>
+				<br/>
+				<br/>
+				<br/>
+      		</div>
+			<footer>
+        		<p>&copy; Vrbas Construction 2012</p>
+      		</footer>
+      	</div>
+		<!-- Script files -->
+		<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/jquery.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-transition.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-alert.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-modal.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-dropdown.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-scrollspy.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-tab.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-tooltip.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-popover.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-button.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-collapse.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-carousel.js"></script>
+    	<script src="http://s3.amazonaws.com/bootstrap.assets/assets/js/bootstrap-typeahead.js"></script>
+    	
+    	<script src="scripts/knockoutjs/2.0/knockout-2.0.0.js"></script>
+    	
+    	<script src="scripts/mainviewmodel.js"></script>
+    	<script>ko.applyBindings(new MainViewModel());</script>
+	</body>
+</html>
